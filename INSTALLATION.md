@@ -38,7 +38,7 @@ npm publish
 3. In your ElizaOS project:
 
 ```bash
-npm install @laurabee19802025/plugin-otaku-x402
+npm install plugin-otaku-x402
 ```
 
 ### 3. Configure Your Character
@@ -47,7 +47,7 @@ Create or update your character file (e.g., `characters/kol-trader.character.ts`
 
 ```typescript
 import { Character } from '@ai16z/eliza';
-import { kolPlugin } from '@laurabee19802025/plugin-otaku-x402';
+import { kolPlugin } from 'plugin-otaku-x402';
 
 export const kolTrader: Character = {
     name: 'Otaku x402 Trading Assistant',

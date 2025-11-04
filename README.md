@@ -52,13 +52,13 @@ Automatically fetches and provides Otaku x402 market context to the agent:
 ### 1. Install the Plugin
 
 ```bash
-npm install @laurabee19802025/plugin-otaku-x402
+npm install plugin-otaku-x402
 ```
 
 ### 2. Add to Your Eliza Character
 
 ```typescript
-import { kolPlugin } from '@laurabee19802025/plugin-otaku-x402';
+import { kolPlugin } from 'plugin-otaku-x402';
 
 export const character = {
     name: "Trading Agent",

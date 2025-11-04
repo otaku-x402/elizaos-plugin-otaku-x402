@@ -1,10 +1,10 @@
 # ElizaOS Plugin Registry Submission
 
-## Plugin: @laurabee19802025-max/plugin-otaku-x402
+## Plugin: plugin-otaku-x402
 
 ### Quick Info
-- **NPM Package**: https://www.npmjs.com/package/@laurabee19802025-max/plugin-otaku-x402
-- **Repository**: https://github.com/laurabee19802025-max/elizaos-plugin-otaku-x402
+- **NPM Package**: https://www.npmjs.com/package/plugin-otaku-x402
+- **Repository**: https://github.com/otaku-x402/elizaos-plugin-otaku-x402
 - **Homepage**: https://api.otakux402.so
 - **Version**: 1.0.0
 - **License**: MIT
@@ -43,14 +43,14 @@ AI-powered Solana token trading insights plugin for ElizaOS agents. Provides rea
 ### Installation
 
 ```bash
-npm install @laurabee19802025-max/plugin-otaku-x402
+npm install plugin-otaku-x402
 ```
 
 ### Usage Example
 
 ```typescript
 import { Character } from '@ai16z/eliza';
-import { kolPlugin } from '@laurabee19802025-max/plugin-otaku-x402';
+import { kolPlugin } from 'plugin-otaku-x402';
 
 export const tradingAgent: Character = {
     name: 'KOL Trading Assistant',
@@ -100,9 +100,9 @@ Base URL: `https://api.otakux402.so`
 ### Documentation
 
 Complete documentation available at:
-- [README](https://github.com/laurabee19802025-max/elizaos-plugin-otaku-x402#readme)
-- [Installation Guide](https://github.com/laurabee19802025-max/elizaos-plugin-otaku-x402/blob/main/INSTALLATION.md)
-- [Quick Start](https://github.com/laurabee19802025-max/elizaos-plugin-otaku-x402/blob/main/QUICK_START.md)
+- [README](https://github.com/otaku-x402/elizaos-plugin-otaku-x402#readme)
+- [Installation Guide](https://github.com/otaku-x402/elizaos-plugin-otaku-x402/blob/main/INSTALLATION.md)
+- [Quick Start](https://github.com/otaku-x402/elizaos-plugin-otaku-x402/blob/main/QUICK_START.md)
 
 ### Testing
 
@@ -135,7 +135,7 @@ All tests passing ✅
 
 ## Maintainer
 
-**laurabee19802025-max** (laurabee19802025-max@gmail.com)
+**Otaku x402** (support@otakux402.so)
 
 ---
 

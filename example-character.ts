@@ -4,7 +4,7 @@
  */
 
 import { Character } from '@ai16z/eliza';
-import { kolPlugin } from '@laurabee19802025/plugin-otaku-x402';
+import { kolPlugin } from 'plugin-otaku-x402';
 
 export const tradingAgent: Character = {
     name: 'KOL Trading Assistant',

@@ -1,0 +1,29 @@
+# Source files
+src/
+tsconfig.json
+.env.example
+
+# Tests
+*.test.ts
+*.spec.ts
+test/
+tests/
+__tests__/
+
+# Development files
+node_modules/
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+
+# Documentation (except README)
+INSTALLATION.md
+STRUCTURE.md
+QUICK_START.md
+example-character.ts
+test-plugin.js
+
+# Git
+.git/
+.gitignore

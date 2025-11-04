@@ -1,0 +1,60 @@
+{
+  "name": "plugin-otaku-x402",
+  "version": "1.0.0",
+  "description": "ElizaOS plugin for Otaku x402 ecosystem - AI-powered Solana token trading insights with X402 micropayment support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otaku-x402/elizaos-plugin-otaku-x402.git"
+  },
+  "homepage": "https://api.otaku-x402.com",
+  "bugs": {
+    "url": "https://github.com/otaku-x402/elizaos-plugin-otaku-x402/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "eliza",
+    "elizaos",
+    "plugin",
+    "ai-agent",
+    "solana",
+    "trading",
+    "kol",
+    "crypto",
+    "defi",
+    "token-analysis",
+    "blockchain",
+    "x402",
+    "micropayments"
+  ],
+  "author": "Otaku x402",
+  "license": "MIT",
+  "dependencies": {
+    "@ai16z/eliza": "^0.1.0",
+    "axios": "^1.6.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0"
+  },
+  "peerDependencies": {
+    "@ai16z/eliza": "^0.1.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

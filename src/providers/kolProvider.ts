@@ -9,7 +9,7 @@ import { HotToken, LeaderboardTrader, Trader, TokenActivity } from '../types';
 
 export const kolProvider: Provider = {
     get: async (runtime: IAgentRuntime, message: Memory, state?: State) => {
-        const apiBaseUrl = runtime.getSetting('KOL_API_URL') || 'https://api.otaku-x402.com/api';
+        const apiBaseUrl = runtime.getSetting('KOL_API_URL') || 'https://api.otakux402.so';
 
         try {
             // Fetch all relevant data in parallel

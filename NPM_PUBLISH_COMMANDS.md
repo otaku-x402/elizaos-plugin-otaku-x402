@@ -53,7 +53,7 @@ Il plugin è configurato e pronto per:
      "version": "1.0.0",
      "description": "AI-powered Solana token trading insights",
      "author": "otaku-x402",
-     "homepage": "https://api.otaku-x402.com",
+     "homepage": "https://api.otakux402.so",
      "repository": "https://github.com/otaku-x402/elizaos-plugin-otaku-x402",
      "category": "trading"
    }

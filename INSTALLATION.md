@@ -63,7 +63,7 @@ export const kolTrader: Character = {
 
     settings: {
         // Otaku x402 API Configuration
-        OTAKU_API_URL: 'https://api.otaku-x402.com',
+        OTAKU_API_URL: 'https://api.otakux402.so',
 
         // Optional: X402 Micropayments
         X402_ENABLED: false
@@ -89,7 +89,7 @@ Create a `.env` file in your ElizaOS project root:
 
 ```env
 # Otaku x402 Plugin Configuration
-OTAKU_API_URL=https://api.otaku-x402.com
+OTAKU_API_URL=https://api.otakux402.so
 
 # Optional: X402 Micropayments
 X402_ENABLED=false
@@ -187,7 +187,7 @@ The plugin uses these endpoints from your Otaku x402 API:
 - `GET /api/traders?limit=10` - Active traders
 - `GET /api/trades?limit=100` - Recent trading activity
 
-Make sure your API server is running and accessible at `https://api.otaku-x402.com`
+Make sure your API server is running and accessible at `https://api.otakux402.so`
 
 ## Troubleshooting
 
@@ -199,10 +199,10 @@ Make sure your API server is running and accessible at `https://api.otaku-x402.c
 
 ### API Connection Errors
 
-1. Verify API URL is correct: `https://api.otaku-x402.com`
+1. Verify API URL is correct: `https://api.otakux402.so`
 2. Test API endpoint manually:
    ```bash
-   curl https://api.otaku-x402.com/hot-tokens?timeframe=1h&limit=10
+   curl https://api.otakux402.so/hot-tokens?timeframe=1h&limit=10
    ```
 3. Check CORS settings if running locally
 
@@ -260,7 +260,7 @@ ELIZA_PLUGIN/
 
 - Documentation: See [README.md](README.md)
 - Issues: Report bugs on GitHub
-- API Status: https://api.otaku-x402.com/health
+- API Status: https://api.otakux402.so/health
 
 ## License
 

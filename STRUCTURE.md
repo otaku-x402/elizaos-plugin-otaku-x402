@@ -125,7 +125,7 @@ Response to User
 
 ### Data Sources
 
-All data scraped from **otaku-x402.io**:
+All data scraped from **otakux402.so**:
 - Trading activity: Every 60 seconds
 - Leaderboard: Every 5 minutes (configurable)
 - Token addresses: Via Helius RPC
@@ -214,14 +214,14 @@ export const character = {
     name: "Trading Agent",
     plugins: [kolPlugin],
     settings: {
-        KOL_API_URL: "https://api.otaku-x402.com/api"
+        KOL_API_URL: "https://api.otakux402.so"
     }
 };
 ```
 
 ### 3. Configure Environment
 ```env
-KOL_API_URL=https://api.otaku-x402.com
+KOL_API_URL=https://api.otakux402.so
 X402_ENABLED=false
 ```
 

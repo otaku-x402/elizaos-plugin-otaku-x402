@@ -64,7 +64,7 @@ export const character = {
     name: "Trading Agent",
     plugins: [kolPlugin],
     settings: {
-        OTAKU_API_URL: "https://api.otaku-x402.com/api"  // Optional, uses default if not set
+        OTAKU_API_URL: "https://api.otakux402.so"  // Optional, uses default if not set
     }
 };
 ```
@@ -75,7 +75,7 @@ Add to your `.env` file:
 
 ```env
 # Otaku x402 API Configuration
-OTAKU_API_URL=https://api.otaku-x402.com
+OTAKU_API_URL=https://api.otakux402.so
 
 # X402 Micropayments (Optional - for data monetization)
 X402_ENABLED=true
@@ -92,7 +92,7 @@ The plugin connects to these Otaku x402 API endpoints:
 - `GET /api/traders?limit=10` - Active traders
 - `GET /api/trades?limit=100` - Recent trading activity
 
-All endpoints return real-time data scraped from otaku-x402.io.
+All endpoints return real-time data scraped from otakux402.so.
 
 ## Usage Examples
 
@@ -179,7 +179,7 @@ Agents automatically handle X402 micropayments when accessing Otaku x402 data:
 
 ## Data Sources
 
-All data is collected in real-time from **otaku-x402.io**:
+All data is collected in real-time from **otakux402.so**:
 
 - **Trading Activity**: Scraped every 60 seconds
 - **Leaderboard**: Updated every 5 minutes (configurable)

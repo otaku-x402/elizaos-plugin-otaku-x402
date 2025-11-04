@@ -32,7 +32,7 @@ export const getKOLDataAction: Action = {
         callback: HandlerCallback | undefined
     ): Promise<boolean> => {
         try {
-            const apiBaseUrl = runtime.getSetting('KOL_API_URL') || 'https://api.otaku-x402.com/api';
+            const apiBaseUrl = runtime.getSetting('KOL_API_URL') || 'https://api.otakux402.so';
 
             // Parse request type from message
             const text = message.content.text.toLowerCase();

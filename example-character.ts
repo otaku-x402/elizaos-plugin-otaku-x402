@@ -131,7 +131,7 @@ export const tradingAgent: Character = {
     // Settings
     settings: {
         // KOL API Configuration
-        KOL_API_URL: 'https://api.otaku-x402.com/api',
+        KOL_API_URL: 'https://api.otakux402.so',
 
         // X402 Micropayments (if enabled)
         X402_ENABLED: false,

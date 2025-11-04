@@ -68,7 +68,7 @@ Dopo qualche minuto, verifica che il package sia visibile:
      "version": "1.0.0",
      "description": "AI-powered Solana token trading insights with real-time KOL data analysis",
      "author": "otaku-x402",
-     "homepage": "https://api.otaku-x402.com",
+     "homepage": "https://api.otakux402.so",
      "repository": "https://github.com/otaku-x402/elizaos-plugin-otaku-x402",
      "keywords": [
        "solana",
@@ -109,13 +109,13 @@ Dopo qualche minuto, verifica che il package sia visibile:
    ### Links
    - NPM: https://www.npmjs.com/package/@elizaos/plugin-otaku-x402
    - Repository: https://github.com/otaku-x402/elizaos-plugin-otaku-x402
-   - Homepage: https://api.otaku-x402.com
+   - Homepage: https://api.otakux402.so
 
    ### Compatibility
    - ElizaOS v1.x ✅
 
    ### Testing
-   Plugin is fully tested and operational. API endpoints verified at https://api.otaku-x402.com/api
+   Plugin is fully tested and operational. API endpoints verified at https://api.otakux402.so
    ```
 
 ### Opzione B: Issue su GitHub (Alternativa)
@@ -132,7 +132,7 @@ Se non vuoi fare un fork, puoi aprire una Issue:
    - **Name**: @elizaos/plugin-otaku-x402
    - **NPM**: https://www.npmjs.com/package/@elizaos/plugin-otaku-x402
    - **Repository**: https://github.com/otaku-x402/elizaos-plugin-otaku-x402
-   - **Homepage**: https://api.otaku-x402.com
+   - **Homepage**: https://api.otakux402.so
 
    ## Description
 

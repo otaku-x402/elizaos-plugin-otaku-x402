@@ -5,7 +5,7 @@
 ### Quick Info
 - **NPM Package**: https://www.npmjs.com/package/@laurabee19802025-max/plugin-otaku-x402
 - **Repository**: https://github.com/laurabee19802025-max/elizaos-plugin-otaku-x402
-- **Homepage**: https://api.otaku-x402.com
+- **Homepage**: https://api.otakux402.so
 - **Version**: 1.0.0
 - **License**: MIT
 
@@ -36,7 +36,7 @@ AI-powered Solana token trading insights plugin for ElizaOS agents. Provides rea
 
 ✅ **Advanced Features**
 - X402 micropayment support for data monetization
-- Real-time data from otaku-x402.io
+- Real-time data from otakux402.so
 - Markdown-formatted responses
 - Error handling and fallbacks
 
@@ -56,7 +56,7 @@ export const tradingAgent: Character = {
     name: 'KOL Trading Assistant',
     plugins: [kolPlugin],
     settings: {
-        KOL_API_URL: 'https://api.otaku-x402.com/api'
+        KOL_API_URL: 'https://api.otakux402.so'
     }
 };
 ```
@@ -95,7 +95,7 @@ All API endpoints verified and operational:
 - ✅ `/leaderboard` - Top traders
 - ✅ `/traders` - Active traders
 
-Base URL: `https://api.otaku-x402.com/api`
+Base URL: `https://api.otakux402.so`
 
 ### Documentation
 

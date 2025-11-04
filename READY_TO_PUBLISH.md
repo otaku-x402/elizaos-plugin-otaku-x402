@@ -7,7 +7,7 @@
 - **Autore**: `otaku-x402`
 - **Licenza**: `MIT`
 - **Repository**: `https://github.com/otaku-x402/elizaos-plugin-otaku-x402`
-- **Homepage**: `https://api.otaku-x402.com`
+- **Homepage**: `https://api.otakux402.so`
 
 ## ✅ Checklist Completata
 
@@ -84,7 +84,7 @@ ELIZA_PLUGIN/
 - **NPM Registry**: https://www.npmjs.com/package/@elizaos/plugin-otaku-x402 (dopo pubblicazione)
 - **ElizaOS Docs**: https://docs.elizaos.ai/plugin-registry/registry
 - **ElizaOS Registry**: https://github.com/elizaos-plugins/registry
-- **API Base**: https://api.otaku-x402.com/api
+- **API Base**: https://api.otakux402.so
 
 ## 💡 Comandi Rapidi
 

@@ -5,7 +5,7 @@
 
 const axios = require('axios');
 
-const API_BASE_URL = 'https://api.otaku-x402.com/api';
+const API_BASE_URL = 'https://api.otakux402.so';
 
 async function testHotTokensEndpoint() {
     console.log('\n🔥 Testing Hot Tokens Endpoint...\n');

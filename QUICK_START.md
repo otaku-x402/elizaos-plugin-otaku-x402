@@ -14,10 +14,10 @@ Il plugin permette agli agenti AI di ElizaOS di:
 
 ### 📊 API Endpoints Verificati
 
-✅ **Health Check**: `https://api.otaku-x402.com/api/health`
-✅ **Hot Tokens**: `https://api.otaku-x402.com/api/hot-tokens`
-✅ **Leaderboard**: `https://api.otaku-x402.com/api/leaderboard`
-✅ **Traders**: `https://api.otaku-x402.com/api/traders`
+✅ **Health Check**: `https://api.otakux402.so/health`
+✅ **Hot Tokens**: `https://api.otakux402.so/hot-tokens`
+✅ **Leaderboard**: `https://api.otakux402.so/leaderboard`
+✅ **Traders**: `https://api.otakux402.so/traders`
 
 ### 🚀 Installazione Rapida
 
@@ -34,7 +34,7 @@ npm run build
 Crea un file `.env` nella tua installazione ElizaOS:
 
 ```env
-KOL_API_URL=https://api.otaku-x402.com/api
+KOL_API_URL=https://api.otakux402.so
 ```
 
 #### 3. Aggiungi al tuo Character
@@ -46,7 +46,7 @@ export const character = {
     name: "KOL Trading Bot",
     plugins: [kolPlugin],
     settings: {
-        KOL_API_URL: "https://api.otaku-x402.com/api"
+        KOL_API_URL: "https://api.otakux402.so"
     }
 };
 ```
@@ -113,7 +113,7 @@ ELIZA_PLUGIN/
 
 **`.env.example`** - Template variabili d'ambiente:
 ```env
-KOL_API_URL=https://api.otaku-x402.com/api
+KOL_API_URL=https://api.otakux402.so
 X402_ENABLED=false
 ```
 
@@ -141,7 +141,7 @@ Il plugin è altamente personalizzabile:
 
 ### ⚠️ Note Importanti
 
-1. **URL API**: Assicurati di usare `https://api.otaku-x402.com/api` (con `/api`)
+1. **URL API**: Assicurati di usare `https://api.otakux402.so` (con `/api`)
 2. **Rate Limiting**: L'API potrebbe avere limiti di richieste
 3. **Endpoint `/trades`**: Attualmente non disponibile, ma non critico per il funzionamento
 4. **DYOR**: Il plugin fornisce analisi AI, non consigli finanziari
@@ -157,7 +157,7 @@ npm run build
 **Errori di connessione API:**
 ```bash
 # Testa gli endpoint
-curl https://api.otaku-x402.com/api/health
+curl https://api.otakux402.so/health
 ```
 
 **Errori TypeScript:**

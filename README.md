@@ -1,6 +1,6 @@
 # Otaku x402 ElizaOS Plugin
 
-AI-powered Solana token trading insights plugin for ElizaOS agents, with X402 micropayment support for data monetization.
+AI-powered Solana token trading insights plugin for ElizaOS agents with X402 micropayment support for data monetization.
 
 ## Overview
 
